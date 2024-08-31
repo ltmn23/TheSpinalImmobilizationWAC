@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>QUIZ</title>
+  <link rel="stylesheet" href="stylesheets/quiz.css" type="text/css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+  <header>
+    <nav> <a href="#">Home</a><a href="#">About</a> <a href="#">Contact</a>
+      <div> <a href="#">Instagram</a> </div>
+    </nav>
+    <h1>SPINAL<span>Immobilisation</span></h1>
+    <span>What about chirldren?</span> </header>
+
+
+    <div class="start-screen">
+    <button id="start-button">Start</button>
+    </div>
+    <div id="display-container">
+        <div class="header">
+            <div class="number-of-count">
+                <span class="number-of-question">1 of 10 questions</span>
+            </div>
+            <div class="timer-div">
+                <img src="https://uxwing.com/wp-content/themes/uxwing/download/time-and-date/stopwatch-icon.png"
+                    width="20px" />
+                <span class="time-left">10s</span>
+            </div>
+        </div>
+        <div id="container">
+            <!-- questions and options will be displayed here -->
+        </div>
+        <button id="next-button">Next</button>
+    </div>
+    <div class="score-container hide">
+        <div id="user-score">Demo Score</div>
+        <button id="restart">Restart</button>
+        <button id="backtoweb">Back to website</button>
+    </div>
+
+    <script src="scripts/quiz.js"></script>
+
+
+
+  <footer>
+    <p>&copy; Copyright 2024 - Domain Name | Website Template By <a target="_blank" href="http://mlb.li/">Matthias Le Brun</a></p>
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script>
+  var myTabs = new tabs(document.getElementById("tabs"), "article", "h2").responsive("myTabs", {
+      prev: "Previous",
+      next: "Next"
+  });
+  </script>
+</body>
+</html>
