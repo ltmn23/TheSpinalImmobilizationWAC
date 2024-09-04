@@ -31,9 +31,9 @@ td
 }
 
 header {
-  background: #db7918;
+  background: #021D55;
   padding: .5em 3em;
-  color: #eee;
+  color: #147ee8;
   line-height: 1;
 }
 
@@ -49,12 +49,12 @@ header h1{
 
 header h1 span{
   display: inline;
-  color: #147ee8;
+  color: #C1D0DF;
 }
 
 header span{
   display: block;
-  color: #144de8;
+  color: #C1D0DF;
   font-weight: 300;
   margin-bottom: 1.6em
 }
@@ -92,7 +92,7 @@ article{
 }
 
 footer{
-  background: #db7918;
+  background: #021D55;
   color: #fff;
   padding: .1em 3em;
 }
