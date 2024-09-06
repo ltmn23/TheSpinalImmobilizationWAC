@@ -91,6 +91,11 @@ header nav a:focus {
   color: rgba(255, 255, 255, .6);
 }
 
+figcaption{
+  text-align: center;
+  padding-top: .8em;
+}
+
 #startquiz {
   font-size: 1.3em;
   padding: 0.5em 1.8em;
