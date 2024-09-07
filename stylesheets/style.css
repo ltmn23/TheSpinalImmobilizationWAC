@@ -94,6 +94,7 @@ header nav a:focus {
 figcaption{
   text-align: center;
   padding-top: .8em;
+  font: 1em/1.5 Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
 }
 
 #startquiz {
@@ -121,8 +122,11 @@ footer {
   padding: .1em 3em;
 }
 
-/* Paragraphs typography */
-p {
+/* Typography */
+p,
+ul,
+table,
+ol {
   font: 1em/1.5 Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
 }
 
